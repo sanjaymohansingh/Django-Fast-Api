@@ -3,7 +3,6 @@ def individual_serial(todo) -> dict:
         "id": str(todo["_id"]),
         "company_id": todo["company_id"],
         "url": todo["url"],
-        "header": todo["header"],
         "events": todo["events"],
         "is_active": todo["is_active"],
         "created_at": todo["created_at"],
